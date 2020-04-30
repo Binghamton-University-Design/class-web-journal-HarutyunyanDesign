@@ -1,4 +1,4 @@
-let responseIndex = 3;
+let responseIndex = 0;
 
 // Answer class
 class Answer {
@@ -17,17 +17,16 @@ class Answer {
 
   // Display the Response
   display(r) {
-
     if(r == this.q) {
       if(!this.is_text) {
-        //console.log('not ok:'+ this.imgtext);
+          //console.log('not ok:'+ this.img);
           image(this.img, this.x, this.y);
+          //console.log('s');
       }
     }
   }
 
   displayText(r) {
-
     if(r == this.q) {
       if(this.is_text) {
         //console.log('ok');
@@ -39,15 +38,13 @@ class Answer {
         //
       }
     }
-
-    
-
   }
 
 }
 
 let data = {}; // Global object to hold results from the loadJSON call
 let answers = []; // Global array to hold all answer objects
+var bg;
 
 // Put any asynchronous data loading in preload to complete before "setup" is run
 function preload() {
@@ -59,6 +56,7 @@ function preload() {
 }
 
 function loadData(r) {
+  bg = loadImage('images/P1-01.png');
   let responseData = data['data'];
   let responseKey = data['key'];
 
@@ -86,7 +84,7 @@ function loadData(r) {
         //console.log(imgtext);
       }
 
-      //console.log(x)
+      //console.log(i+' - '+x+' - '+y+' - '+imgtext+' - '+ is_text)
       // Put object in array
       answers.push(new Answer(i, x, y, imgtext, is_text));
     }
@@ -104,17 +102,18 @@ function loadData(r) {
   
 }
 
-
 function setup() {
   var canvas = createCanvas(500, 500);
   canvas.parent('sketch');
 }
 
 function draw() {
-  background(0);
+  //background(255,255,255);
+  image(bg, 0, 0);
 
   // Display all answers
   for (let i = 0; i < answers.length; i++) {
+    console.log(i);
     answers[i].display(responseIndex);
     answers[i].displayText(responseIndex);
   }

@@ -40,7 +40,7 @@
       "agree" : "P1Q5-01.png",
       "not sure" : "P8Q5-08.png",
       "disagree" : "P2Q5-02.png",
-      "is_text" : true
+      "is_text" : false
     },
     "The type of exercise I do has changed since the outbreak": {
     "x" : 0,
@@ -48,10 +48,18 @@
     "strongly agree" : "P2Q6-02.png",
     "agree" : "P3Q6-03.png",
     "not sure" : "P7Q6-07.png",
-    "is_text" : true
+    "is_text" : false
     }
   },
 "data" : [
+  {
+    "It is important to me to be physically active": "strongly agree",
+    "Before the COVID-19 outbreak I was active in my day to day": "agree",
+    "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "strongly agree",
+    "Since COVID-19 I am NOT as active in my day to day routine": "agree",
+    "Since COVID-19 I specifically allocate time in my day for some type of exercise": "agree",
+    "The type of exercise I do has changed since the outbreak": "agree"
+  },
   {
     "It is important to me to be physically active": "strongly agree",
     "Before the COVID-19 outbreak I was active in my day to day": "agree",
@@ -60,7 +68,7 @@
     "Since COVID-19 I specifically allocate time in my day for some type of exercise": "agree",
     "The type of exercise I do has changed since the outbreak": "agree"
   },
-  {
+    {
     "It is important to me to be physically active": "strongly agree",
     "Before the COVID-19 outbreak I was active in my day to day": "agree",
     "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "agree",
@@ -102,26 +110,10 @@
   },
   {
     "It is important to me to be physically active": "agree",
-    "Before the COVID-19 outbreak I was active in my day to day": "agree",
-    "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "agree",
-    "Since COVID-19 I am NOT as active in my day to day routine": "disagree",
-    "Since COVID-19 I specifically allocate time in my day for some type of exercise": "agree",
-    "The type of exercise I do has changed since the outbreak": "disagree"
-  },
-  {
-    "It is important to me to be physically active": "agree",
     "Before the COVID-19 outbreak I was active in my day to day": "strongly agree",
     "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "strongly agree",
     "Since COVID-19 I am NOT as active in my day to day routine": "not sure",
     "Since COVID-19 I specifically allocate time in my day for some type of exercise": "not sure",
-    "The type of exercise I do has changed since the outbreak": "agree"
-  },
-  {
-    "It is important to me to be physically active": "strongly agree",
-    "Before the COVID-19 outbreak I was active in my day to day": "agree",
-    "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "strongly agree",
-    "Since COVID-19 I am NOT as active in my day to day routine": "agree",
-    "Since COVID-19 I specifically allocate time in my day for some type of exercise": "agree",
     "The type of exercise I do has changed since the outbreak": "agree"
   }
 ]
