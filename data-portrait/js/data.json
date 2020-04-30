@@ -1,0 +1,128 @@
+{
+"key" :
+  { 
+    "It is important to me to be physically active": {
+      "x" : 0,
+      "y" : 0,
+      "strongly agree" : "P1Q1-01.png",
+      "agree" : "P4Q1-04.png",
+      "is_text" : false
+    },
+    "Before the COVID-19 outbreak I was active in my day to day": {
+      "x" : 0,
+      "y" : 0,
+      "strongly agree" : "P8Q2-08.png",
+      "agree" : "P1Q2-01.png",
+      "is_text" : false
+    },
+    "Before COVID-19 I would specifically allocate time in my day for some type of exercise": {
+      "x" : 0,
+      "y" : 0,
+      "strongly agree" : "P8Q3-08.png",
+      "agree" : "P2Q3-02.png",
+      "not sure" : "P4Q3-04.png",
+      "disagree" : "P1Q3-01.png",
+      "is_text" : false
+    },
+    "Since COVID-19 I am NOT as active in my day to day routine": {
+      "x" : 0,
+      "y" : 0,
+      "strongly agree" : "P1Q4-01.png",
+      "agree" : "P2Q4-02.png",
+      "not sure" : "P8Q4-08.png",
+      "disagree" : "P7Q4-07.png",
+      "is_text" : false
+    },
+    "Since COVID-19 I specifically allocate time in my day for some type of exercise": {
+      "x" : 0,
+      "y" : 0,
+      "strongly agree" : "P3Q5-03.png",
+      "agree" : "P1Q5-01.png",
+      "not sure" : "P8Q5-08.png",
+      "disagree" : "P2Q5-02.png",
+      "is_text" : true
+    },
+    "The type of exercise I do has changed since the outbreak": {
+    "x" : 0,
+    "y" : 0,
+    "strongly agree" : "P2Q6-02.png",
+    "agree" : "P3Q6-03.png",
+    "not sure" : "P7Q6-07.png",
+    "is_text" : true
+    }
+  },
+"data" : [
+  {
+    "It is important to me to be physically active": "strongly agree",
+    "Before the COVID-19 outbreak I was active in my day to day": "agree",
+    "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "disagree",
+    "Since COVID-19 I am NOT as active in my day to day routine": "strongly agree",
+    "Since COVID-19 I specifically allocate time in my day for some type of exercise": "agree",
+    "The type of exercise I do has changed since the outbreak": "agree"
+  },
+  {
+    "It is important to me to be physically active": "strongly agree",
+    "Before the COVID-19 outbreak I was active in my day to day": "agree",
+    "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "agree",
+    "Since COVID-19 I am NOT as active in my day to day routine": "agree",
+    "Since COVID-19 I specifically allocate time in my day for some type of exercise": "disagree",
+    "The type of exercise I do has changed since the outbreak": "strongly agree"
+  },
+  {
+    "It is important to me to be physically active": "strongly agree",
+    "Before the COVID-19 outbreak I was active in my day to day": "agree",
+    "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "disagree",
+    "Since COVID-19 I am NOT as active in my day to day routine": "agree",
+    "Since COVID-19 I specifically allocate time in my day for some type of exercise": "strongly agree",
+    "The type of exercise I do has changed since the outbreak": "strongly agree"
+  },
+  {
+    "It is important to me to be physically active": "agree",
+    "Before the COVID-19 outbreak I was active in my day to day": "agree",
+    "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "not sure",
+    "Since COVID-19 I am NOT as active in my day to day routine": "agree",
+    "Since COVID-19 I specifically allocate time in my day for some type of exercise": "agree",
+    "The type of exercise I do has changed since the outbreak": "agree"
+  },
+  {
+    "It is important to me to be physically active": "strongly agree",
+    "Before the COVID-19 outbreak I was active in my day to day": "agree",
+    "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "agree",
+    "Since COVID-19 I am NOT as active in my day to day routine": "agree",
+    "Since COVID-19 I specifically allocate time in my day for some type of exercise": "agree",
+    "The type of exercise I do has changed since the outbreak": "agree"
+  },
+  {
+    "It is important to me to be physically active": "agree",
+    "Before the COVID-19 outbreak I was active in my day to day": "agree",
+    "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "agree",
+    "Since COVID-19 I am NOT as active in my day to day routine": "agree",
+    "Since COVID-19 I specifically allocate time in my day for some type of exercise": "agree",
+    "The type of exercise I do has changed since the outbreak": "agree"
+  },
+  {
+    "It is important to me to be physically active": "agree",
+    "Before the COVID-19 outbreak I was active in my day to day": "agree",
+    "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "agree",
+    "Since COVID-19 I am NOT as active in my day to day routine": "disagree",
+    "Since COVID-19 I specifically allocate time in my day for some type of exercise": "agree",
+    "The type of exercise I do has changed since the outbreak": "disagree"
+  },
+  {
+    "It is important to me to be physically active": "agree",
+    "Before the COVID-19 outbreak I was active in my day to day": "strongly agree",
+    "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "strongly agree",
+    "Since COVID-19 I am NOT as active in my day to day routine": "not sure",
+    "Since COVID-19 I specifically allocate time in my day for some type of exercise": "not sure",
+    "The type of exercise I do has changed since the outbreak": "agree"
+  },
+  {
+    "It is important to me to be physically active": "strongly agree",
+    "Before the COVID-19 outbreak I was active in my day to day": "agree",
+    "Before COVID-19 I would specifically allocate time in my day for some type of exercise": "strongly agree",
+    "Since COVID-19 I am NOT as active in my day to day routine": "agree",
+    "Since COVID-19 I specifically allocate time in my day for some type of exercise": "agree",
+    "The type of exercise I do has changed since the outbreak": "agree"
+  }
+]
+}
